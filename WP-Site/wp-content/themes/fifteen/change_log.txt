@@ -1,0 +1,8 @@
+Version 1.0.0.1
+
+	i) Initial Release
+	
+Version 1.0.0.2
+
+	i) Added Pro Version Details.
+	ii) Minor CSS Fix	

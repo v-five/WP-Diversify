@@ -1,0 +1,40 @@
+Changelog Legend:
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(16/03/2014) - Update - Version 1.1.1
+
+[+] Added Russian language localization.
+[+] Added option for displaying the Header Image on all pages.
+
+----
+
+(12/03/2014) - Update - Version 1.1.0
+
+[+] Added option for selecting between Content/Excerpt displaying on Archive pages.
+[+] Added new "Lime" pre-defined color scheme.
+
+----
+
+(25/02/2014) - The initial public release - Version 1.0.1
+
+[+] Added copyright notices for all used images and JavaScript files.
+[*] Changed the icons.
+[*] Changed Theme URL.
+[*] Edited the main query function in index.php and all archive templates.
+[x] Removed custom shortcodes from functions.php.
+[x] Removed Theme Options link from the Admin Bar.
+[x] Removed Color settings tab from Theme Options.
+[!] Added escaping for output of restimpo_get_own_css() function.
+[!] Added escaping for output of home_url function in searchform.php.
+
+----
+
+(21/02/2014) - The initial testing release - Version 1.0.0
