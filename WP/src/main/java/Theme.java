@@ -26,7 +26,7 @@ public class Theme {
 		ZipInputStream zis = new ZipInputStream(is);
 		String themeDir = unzipTheme(zis);
 		try{
-			FileUtils.moveDirectory(new File(themeDir), new File("WP-Site/wp-content/themes/" + themeDir));
+			FileUtils.moveDirectory(new File(themeDir), new File("WPMY-Site/wp-content/themes/" + themeDir));
 		}catch (Exception e){
 			System.out.print(e.getMessage());
 		}
@@ -36,7 +36,7 @@ public class Theme {
 
 		List<String> themes = new ArrayList<String>();
 
-		File themesDir = new File("WP-Site/wp-content/themes");
+		File themesDir = new File("WPMY-Site/wp-content/themes");
 		File[] themesList = themesDir.listFiles();
 		for(File theme : themesList){
 			if(theme.isDirectory()){

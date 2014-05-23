@@ -5,6 +5,7 @@
 public class StartWP {
 	public static void main(String args[]){
 		WP wp = new WP();
-		wp.start();
+		wp.start("WPMY-Site");
+//		wp.start("WPPG-Site");
 	}
 }

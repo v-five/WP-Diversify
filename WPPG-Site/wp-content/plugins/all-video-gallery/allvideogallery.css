@@ -1,0 +1,7 @@
+@charset "utf-8";
+.widefat th {
+	font-family:Arial, Helvetica, sans-serif;
+}
+.wrap tr td input, .wrap tr td select, .wrap tr td textarea {
+	color:#454545;
+}

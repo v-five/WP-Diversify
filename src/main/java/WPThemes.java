@@ -9,16 +9,16 @@ public class WPThemes {
 		WP wp = new WP();
 
 		//Download a theme
-		wp.theme.downloadByName("dust");
+//		wp.theme.downloadByName("dust");
 
 
 		//Return a list with all accessible themes
-		List<String> allThemes = wp.theme.getAll();
-		System.out.print(allThemes);
+//		List<String> allThemes = wp.theme.getAll();
+//		System.out.print(allThemes);
 
 
 		//Set a theme on WordPress
-//		wp.theme.set("test");
+		wp.theme.set("virtue");
 
 
 		//Set a random theme

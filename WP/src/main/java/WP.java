@@ -15,11 +15,11 @@ public class WP{
 		test = new Test();
 	}
 
-	public static void start(){
+	public static void start(String WPSiteDirector){
 		Server server = new Server(8080);
 
 		WebAppContext context = new WebAppContext();
-		context.setResourceBase("WP-Site/");
+		context.setResourceBase(WPSiteDirector);
 		context.setContextPath("/");
 		context.addServlet(QuercusServlet.class.getName(),"/*.php");
 		System.err.println(QuercusServlet.class.getName());
